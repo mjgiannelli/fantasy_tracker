@@ -1,0 +1,36 @@
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .fantasy-football-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .fantasy-football-data .players-list {
+    display: flex;
+}
+
+.box .fantasy-football-data .players-list .player-criteria {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .fantasy-football-data .players-list .player-criteria ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.box .fantasy-football-data .players-list .player-criteria ul span {
+    margin-bottom: 10px;
+}
+
+.box .fantasy-football-data .players-list .player-criteria ul input {
+    margin-top: 2px;
+}
+
+.row {
+    display: flex;
+}
